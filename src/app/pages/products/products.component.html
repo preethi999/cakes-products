@@ -2,7 +2,7 @@
     <div class="col-sm-3 mb-3" *ngFor="let product of allproducts">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
-                    <img class="pic-1" src="{{product.img}}" alt="image">
+                    <img class="pic-1" src="{{product.img}}" class="pp" alt="image">
                 <h5 class="card-title">{{product.name}}</h5>
                 <p class="card-text">{{product.price}}</p>
                 <button class="btn btn-primary" (click)="addToCart(product)">Add to cart</button>
